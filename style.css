@@ -3,4 +3,16 @@
 h1 {
 font-weight:normal;
 font-family: 'Bebas Neue', cursive;
+font-size: 100px;
 }
+
+p {
+font-weight:normal;
+font-family: 'Roboto', sans-serif;
+font-size: 40px;
+}
+
+#Title {
+text-align: center;
+}
+
