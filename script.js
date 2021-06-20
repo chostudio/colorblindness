@@ -219,7 +219,7 @@ function protanomaly() {
   h2.textContent = "Protanomaly (Red-Weak)";
 
   const p = document.querySelector("#ColorblindTypeInfo1");
-  p.textContent = "Protanomaly information";
+  p.textContent = "Protanomaly is a mild color vision defect in which an altered spectral sensitivity of red retinal receptorsresults in poor red–green hue discrimination. Unlike Protanopia, red retinal cells are not missing but malfunction.";
 }
 
 function deuteranomaly() {
@@ -443,7 +443,7 @@ function deuteranomaly() {
   h2.textContent = "Deuteranomaly (Green-Weak)";
 
   const p = document.querySelector("#ColorblindTypeInfo1");
-  p.textContent = "Deuteranomaly information";
+  p.textContent = "Deuteranomaly is caused by a shift in the green retinal receptors, and is the most common type of color vision deficiency, mildly affecting red–green hue perception. Unlike Deuteranopia, green retinal cells are not missing but malfunction.";
 }
 
 function tritanomaly() {
@@ -668,7 +668,7 @@ function tritanomaly() {
   h2.textContent = "Tritanomaly (Blue-Weak)";
 
   const p = document.querySelector("#ColorblindTypeInfo1");
-  p.textContent = "Tritanomaly information";
+  p.textContent = "Tritanomaly is a rare, hereditary color vision deficiency affecting blue–green and yellow–red/pink hue perception. Unlike Tritanopia, blue retinal cells are not missing but malfunction.";
 }
 
 function protanopia() {
@@ -892,7 +892,7 @@ function protanopia() {
   h2.textContent = "Protanopia (Red-Blind)";
 
   const p = document.querySelector("#ColorblindTypeInfo1");
-  p.textContent = "Protanopia information";
+  p.textContent = "Protanopia is caused by the complete absence of red retinal cells. People who have Protanopia are red-green colorblind and have difficulties distinguishing between red and green colors and also between blue and green colors. Pure reds cannot be seen and appear instead as black. Protanopia is present in 1% of males.";
 }
 
 function deuteranopia() {
@@ -1116,7 +1116,7 @@ function deuteranopia() {
   h2.textContent = "Deuteranopia (Green-Blind)";
 
   const p = document.querySelector("#ColorblindTypeInfo1");
-  p.textContent = "Deuteranopia information";
+  p.textContent = "Deuteranopia is another red-green colorblindness similar to Protanopia. It is caused by the complete absence of green retinal cells. It is found in 1% of the male population.";
 }
 
 function tritanopia() {
@@ -1340,7 +1340,7 @@ function tritanopia() {
   h2.textContent = "Tritanopia (Blue-Blind)";
 
   const p = document.querySelector("#ColorblindTypeInfo1");
-  p.textContent = "Tritanopia information";
+  p.textContent = "Tritanopia is a type of color blindness where there are no blue retina cells. Blues appear greenish, yellows and oranges appear pinkish, and purple colors appear deep red.";
 }
 
 function blueConeMonochromacy() {
@@ -1564,7 +1564,7 @@ function blueConeMonochromacy() {
   h2.textContent = "Blue Cone Monochromacy (Red & Green-Weak)";
 
   const p = document.querySelector("#ColorblindTypeInfo1");
-  p.textContent = "Blue Cone Monochromacy information";
+  p.textContent = "Blue Cone Monochromacy is caused by lack of functionality of red and green cone cells in the retina. It is a very rare type of color blindness, having a 1:100,000 ratio.";
 }
 
 function achromatopsia() {
@@ -1788,7 +1788,7 @@ function achromatopsia() {
   h2.textContent = "Achromatopsia (Monochromancy)";
 
   const p = document.querySelector("#ColorblindTypeInfo1");
-  p.textContent = "Achromatopsia information";
+  p.textContent = "Achromatopsia is a type of color blindness where you cannot differentiate between colors, making everything black and white. Monochromacy occurs when two or all three of the cone pigments are missing, so color and lightness visuals are reduced to one dimension.";
 }
 
 function trichromacy() {

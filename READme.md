@@ -1,13 +1,5 @@
-## Inspiration
+## About
 
-## What it does
+An interactive website educating people about color blindness.
 
-## How we built it
-
-## Challenges we ran into
-
-## Accomplishments that we're proud of
-
-## What we learned
-
-## What's next for Color Blindness
+Built in under 24 hours for the Simplihacks Hackathon.
