@@ -215,8 +215,11 @@ function protanomaly() {
   pred1.setAttribute("stroke", "#D2691E");
 
   //< !--InfoPopUp-->
+  const h2 = document.querySelector("#ColorblindType");
+  h2.textContent = "Protanomaly (Red-Weak)";
+
   const p = document.querySelector("#ColorblindTypeInfo1");
-  p.textContent = ">> Protanomaly information <<";
+  p.textContent = "Protanomaly information";
 }
 
 function deuteranomaly() {
@@ -436,8 +439,11 @@ function deuteranomaly() {
   pred1.setAttribute("stroke", "#D15B34");
 
   //< !--InfoPopUp-->
+  const h2 = document.querySelector("#ColorblindType");
+  h2.textContent = "Deuteranomaly (Green-Weak)";
+
   const p = document.querySelector("#ColorblindTypeInfo1");
-  p.textContent = ">> Deuteranomaly information <<";
+  p.textContent = "Deuteranomaly information";
 }
 
 function tritanomaly() {
@@ -657,8 +663,12 @@ function tritanomaly() {
   pred1.setAttribute("stroke", "#F53B3B");
 
   //< !--InfoPopUp-->
+
+  const h2 = document.querySelector("#ColorblindType");
+  h2.textContent = "Tritanomaly (Blue-Weak)";
+
   const p = document.querySelector("#ColorblindTypeInfo1");
-  p.textContent = ">> Tritanomaly information <<";
+  p.textContent = "Tritanomaly information";
 }
 
 function protanopia() {
@@ -878,8 +888,11 @@ function protanopia() {
   pred1.setAttribute("stroke", "#919434");
 
   //< !--InfoPopUp-->
+  const h2 = document.querySelector("#ColorblindType");
+  h2.textContent = "Protanopia (Red-Blind)";
+
   const p = document.querySelector("#ColorblindTypeInfo1");
-  p.textContent = ">> Protanopia information <<";
+  p.textContent = "Protanopia information";
 }
 
 function deuteranopia() {
@@ -1099,8 +1112,11 @@ function deuteranopia() {
   pred1.setAttribute("stroke", "#9DA152");
 
   //< !--InfoPopUp-->
+  const h2 = document.querySelector("#ColorblindType");
+  h2.textContent = "Deuteranopia (Green-Blind)";
+
   const p = document.querySelector("#ColorblindTypeInfo1");
-  p.textContent = ">> Deuteranopia information <<";
+  p.textContent = "Deuteranopia information";
 }
 
 function tritanopia() {
@@ -1320,8 +1336,11 @@ function tritanopia() {
   pred1.setAttribute("stroke", "#DE2509");
 
   //< !--InfoPopUp-->
+  const h2 = document.querySelector("#ColorblindType");
+  h2.textContent = "Tritanopia (Blue-Blind)";
+
   const p = document.querySelector("#ColorblindTypeInfo1");
-  p.textContent = ">> Tritanopia information <<";
+  p.textContent = "Tritanopia information";
 }
 
 function blueConeMonochromacy() {
@@ -1541,8 +1560,11 @@ function blueConeMonochromacy() {
   pred1.setAttribute("stroke", "#912406");
 
   //< !--InfoPopUp-->
+  const h2 = document.querySelector("#ColorblindType");
+  h2.textContent = "Blue Cone Monochromacy (Red & Green-Weak)";
+
   const p = document.querySelector("#ColorblindTypeInfo1");
-  p.textContent = ">> Blue Cone Monochromacy information <<";
+  p.textContent = "Blue Cone Monochromacy information";
 }
 
 function achromatopsia() {
@@ -1762,8 +1784,11 @@ function achromatopsia() {
   pred1.setAttribute("stroke", "#464547");
 
   //< !--InfoPopUp-->
+  const h2 = document.querySelector("#ColorblindType");
+  h2.textContent = "Achromatopsia (Monochromancy)";
+
   const p = document.querySelector("#ColorblindTypeInfo1");
-  p.textContent = ">> Achromatopsia information <<";
+  p.textContent = "Achromatopsia information";
 }
 
 function trichromacy() {
@@ -1983,6 +2008,9 @@ function trichromacy() {
   pred1.setAttribute("stroke", "#FF0000");
 
   //< !--InfoPopUp-->
+  const h2 = document.querySelector("#ColorblindType");
+  h2.textContent = "trichromancy (no color blindness)";
+
   const p = document.querySelector("#ColorblindTypeInfo1");
-  p.textContent = "";
+  p.textContent = "Click on a specific type of color blindness above. More Information about the type of color blindness will appear here.";
 }
