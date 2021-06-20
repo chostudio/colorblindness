@@ -34,7 +34,7 @@ line-height: 1.5;
 
 #BigTitle {
 position:absolute;
-left: 35%;
+left: 40%;
 padding-top: 200px;
 }
 
@@ -47,7 +47,7 @@ padding-top: 200px;
 
 @media screen and (max-width: 600px) {
   #BigTitle {
-    right: 20%;
+    right: 10%;
     padding-left: -300px;
   }
 }
@@ -59,7 +59,7 @@ padding-top: 300px;
 
 @media screen and (max-width: 1400px) {
   #BlackLine{
-    width: 30%;
+    width: 50%;
     
   }
 }
