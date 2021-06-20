@@ -206,3 +206,10 @@ button:hover {
   display: block;
     margin: auto;
 }
+
+#PassMargin {
+  display: block;
+
+    margin-bottom: 100px;
+}
+

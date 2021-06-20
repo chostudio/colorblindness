@@ -213,7 +213,7 @@ function protanomaly() {
 
   const pred1 = document.querySelector("#P6");
   pred1.setAttribute("stroke", "#D2691E");
-  
+
   //< !--InfoPopUp-->
   const p = document.querySelector("#ColorblindTypeInfo1");
   p.textContent = ">> Protanomaly information <<";
@@ -434,7 +434,7 @@ function deuteranomaly() {
 
   const pred1 = document.querySelector("#P6");
   pred1.setAttribute("stroke", "#D15B34");
-  
+
   //< !--InfoPopUp-->
   const p = document.querySelector("#ColorblindTypeInfo1");
   p.textContent = ">> Deuteranomaly information <<";
@@ -655,7 +655,7 @@ function tritanomaly() {
 
   const pred1 = document.querySelector("#P6");
   pred1.setAttribute("stroke", "#F53B3B");
-  
+
   //< !--InfoPopUp-->
   const p = document.querySelector("#ColorblindTypeInfo1");
   p.textContent = ">> Tritanomaly information <<";
@@ -876,7 +876,7 @@ function protanopia() {
 
   const pred1 = document.querySelector("#P6");
   pred1.setAttribute("stroke", "#919434");
-  
+
   //< !--InfoPopUp-->
   const p = document.querySelector("#ColorblindTypeInfo1");
   p.textContent = ">> Protanopia information <<";
@@ -1097,7 +1097,7 @@ function deuteranopia() {
 
   const pred1 = document.querySelector("#P6");
   pred1.setAttribute("stroke", "#9DA152");
-  
+
   //< !--InfoPopUp-->
   const p = document.querySelector("#ColorblindTypeInfo1");
   p.textContent = ">> Deuteranopia information <<";
@@ -1318,7 +1318,7 @@ function tritanopia() {
 
   const pred1 = document.querySelector("#P6");
   pred1.setAttribute("stroke", "#DE2509");
-  
+
   //< !--InfoPopUp-->
   const p = document.querySelector("#ColorblindTypeInfo1");
   p.textContent = ">> Tritanopia information <<";
@@ -1539,7 +1539,7 @@ function blueConeMonochromacy() {
 
   const pred1 = document.querySelector("#P6");
   pred1.setAttribute("stroke", "#912406");
-  
+
   //< !--InfoPopUp-->
   const p = document.querySelector("#ColorblindTypeInfo1");
   p.textContent = ">> Blue Cone Monochromacy information <<";
@@ -1708,7 +1708,7 @@ function achromatopsia() {
   wpurple.setAttribute("fill", "#424242")
 
   const wpink = document.querySelector("#W10");
-  wpink.setAttribute("fill", "#7F7E80")
+  wpink.setAttribute("fill", "#6e6e6e")
 
   // < !--Titles -->
   const BlueT = document.querySelector("#BlueTitle");
@@ -1760,7 +1760,7 @@ function achromatopsia() {
 
   const pred1 = document.querySelector("#P6");
   pred1.setAttribute("stroke", "#464547");
-  
+
   //< !--InfoPopUp-->
   const p = document.querySelector("#ColorblindTypeInfo1");
   p.textContent = ">> Achromatopsia information <<";
@@ -1981,7 +1981,7 @@ function trichromacy() {
 
   const pred1 = document.querySelector("#P6");
   pred1.setAttribute("stroke", "#FF0000");
-  
+
   //< !--InfoPopUp-->
   const p = document.querySelector("#ColorblindTypeInfo1");
   p.textContent = "";
